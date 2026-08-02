@@ -1,7 +1,24 @@
 aid: you-app
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/you-app.png
 name: YOU-app
-description: YOU-app is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: YOU-app was a mobile wellbeing application built by Fifth Corner (Helsinki, Finland) that delivered
+  daily "micro-actions" across food, mindfulness, movement, and mental wellbeing, blending social-media
+  style photo sharing with habit-building and originally aligned to the UN Sustainable Development Goals.
+  The company was acquired and is no longer operated as an independent product; the you-app.com domain now
+  302-redirects to Hintsa Performance (hintsa.com). No public API, developer portal, documentation, SDKs,
+  or machine-readable specification was found during enrichment — this remains a consumer-app profile with
+  no developer surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/you-app/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: acquired
+x-redirects-to: https://hintsa.com/
 tags:
 - Company
+- Wellbeing
+- Health
+- Wellness
+- Mobile App
+- Consumer
+- Habit Tracking
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/you-app-domain-security.yml
 - type: Website
   url: https://you-app.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
