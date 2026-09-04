@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://you-app.com', status: 302, note: 'declared website redirects to https://www.hintsa.com/ — a different registrable domain (you-app.com -> hintsa.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/you-app.png
 name: YOU-app
 description: YOU-app was a mobile wellbeing application built by Fifth Corner (Helsinki, Finland) that delivered
